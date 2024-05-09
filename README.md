@@ -1,2 +1,0 @@
-# iterpu
-My personal website
