@@ -123,6 +123,6 @@ STATIC_ROOT =  "/var/www/execute-api.us-west-2.amazonaws.com.com/static/"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
-   'iterpu/hsinaM/static',
+    BASE_DIR / "static",
     '/var/www/static/',
 ]
