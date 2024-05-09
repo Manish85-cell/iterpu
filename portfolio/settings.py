@@ -112,17 +112,17 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_ROOT = 'C:\\Users\\mupre\\Desktop\\portfolio\\tt\\iterpu\\staticfiles'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT =  "/var/www/execute-api.us-west-2.amazonaws.com.com/static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
-   'C:\\Users\\mupre\\Desktop\\portfolio\\tt\\iterpu\\hsinaM\\static',
+   'iterpu/hsinaM/static',
     '/var/www/static/',
 ]
